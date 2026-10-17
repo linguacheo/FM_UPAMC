@@ -290,7 +290,8 @@ p, .stmt, .src, .card p, .lbl { text-wrap: pretty; }
 
 .wrap { position: absolute; inset: 0; padding: 70px 110px 64px 124px; display: flex; flex-direction: column; }
 .hdr { position: absolute; left: 124px; right: 110px; bottom: 22px; display: flex; justify-content: space-between; font: 500 18px var(--f-body); color: var(--muted); }
-.hdr .pg { display: none; }
+.hdr .pg { font-variant-numeric: tabular-nums; letter-spacing: .04em; }
+.cine .pg { position: absolute; right: 110px; bottom: 22px; font: 500 18px var(--f-body); letter-spacing: .04em; color: rgba(255,244,230,.7); font-variant-numeric: tabular-nums; }
 .h2 { margin-top: 0; font: 400 74px/1.06 var(--f-head); letter-spacing: -0.018em; max-width: 1600px; }
 .h2 i { color: var(--red); }
 .take { margin-top: 18px; font-size: 32px; line-height: 1.4; color: var(--muted); max-width: 1500px; }
@@ -428,6 +429,7 @@ svg text { font-family: var(--f-mono); }
     <div class="kicker">Part I – II · The funds</div>
     <h2 class="title"><span class="ln"><span>Five funds,</span></span><span class="ln"><span class="o">one family</span></span></h2>
     <p class="sub">Same company, same research team, five different styles.</p>
+    <span class="pg"></span>
 </section>
 
 <!-- =====================================================
@@ -486,6 +488,7 @@ svg text { font-family: var(--f-mono); }
     <div class="kicker">Part III · Performance</div>
     <h2 class="title"><span class="ln"><span>Did they beat</span></span><span class="ln"><span class="o">the market?</span></span></h2>
     <p class="sub">Return, risk and α from TEJ daily NAVs, 2020/01 – 2026/06.</p>
+    <span class="pg"></span>
 </section>
 
 <!-- =====================================================
@@ -631,6 +634,7 @@ svg text { font-family: var(--f-mono); }
     <div class="kicker">Part IV · Personal financial plan</div>
     <h2 class="title"><span class="ln"><span>NT$1,000,000</span></span><span class="ln"><span class="o">at age 23</span></span></h2>
     <p class="sub">Turning the evaluation into an allocation, an entry plan and written risk rules.</p>
+    <span class="pg"></span>
 </section>
 
 <!-- =====================================================
@@ -791,6 +795,7 @@ svg text { font-family: var(--f-mono); }
     </div>
     <div class="ty"><span class="ln"><span>Thank you</span></span><small>Questions welcome</small></div>
     <div class="meta">For coursework only; not investment advice.</div>
+    <span class="pg"></span>
 </section>
 
 <!-- Transition overlay -->
